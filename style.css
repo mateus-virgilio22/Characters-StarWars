@@ -196,7 +196,7 @@ footer {
 
 .modal-content {
     width: 25vw;
-    height: 70vh;
+    height: 65vh;
     background-color: #0d0d0d;
     border-radius: 12px;
     display: flex;
@@ -204,6 +204,31 @@ footer {
     row-gap: 15px;
     padding: 30px 10px;
     align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .modal-content {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .modal-content {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .modal-content {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .modal-content {
+        width: 60vw;
+    }
 }
 
 .character-image {
